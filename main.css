@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(3, 0, 0);
+} 
+ #first{
+    width: 100%; 
+    height: 650px; 
+    background-image: url("img/gym1.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    /* display: flex;  */
+    
+ }    
+ marquee{
+font-size: 50px; 
+font-style: italic;
+color: rgb(247, 244, 244);
+ }
+ #head{
+    width:auto; 
+    border: 5px solid rgb(245, 241, 241);  
+    border-radius: 20px; 
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: 200px;
+      
+ }
+ #second{
+    color: rgb(199, 72, 13); 
+    
+    font-size: 40px;  
+   
+    transition: background-color 0.8s; 
+   display: flex; 
+   justify-content: center; 
+   align-items : flex-end;
+    
+ }  
+ #head:hover{
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+    
+
+ } 
+a{
+text-decoration: none; 
+
+} 
+#header{
+    width: auto;
+    height: 50px; 
+    background-color: rgb(252, 254, 255); 
+    border: 3px solid rgb(161, 5, 5); 
+    border-radius: 20px; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    justify-content: space-evenly;
+background-image: url(img/background.jpg); 
+
+}
+.nav{
+    border: 4px solid rgb(168, 2, 2); 
+    font-size:25px;  
+    padding: 7px; 
+    border-radius: 10px; 
+    color:rgb(221, 214, 215); 
+    font-family: cursive;
+  
+/* background-image: url(img/background.jpg);  */
+
+   
+} 
+#middle{
+    width: auto;
+    height: 550px; 
+    border: 3px solid rgb(112, 7, 7);  
+    margin-top: 20px;
+background-image: url(img/background.jpg); 
+background-repeat: no-repeat;
+background-size: cover; 
+} 
+.headder{
+    font-size: 50px; 
+    text-align: center;
+
+}  
+.container{ 
+    width: auto; 
+   height: 300px;
+    display: flex; 
+    justify-content: space-around; 
+} 
+.blogs{
+    border: 4px solid rgb(112, 7, 7);  
+   width: 400px;
+   height: 450px;
+   overflow: auto; 
+   font-size: 22px; 
+   font-family:cursive;  
+   color: rgb(201, 231, 203); 
+   border-radius: 13px;
+   padding: 5px;
+   
+} 
+
+#footer{
+    width: auto;
+    height: 300px; 
+    border: 3px solid rgb(112, 7, 7);  
+    margin-top: 20px;
+background-image: url(img/background.jpg); 
+background-repeat: no-repeat;
+background-size: 100%  100%;
+display: flex;
+}  
+
+ul{
+    font-size: larger;
+}
